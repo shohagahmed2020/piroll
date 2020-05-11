@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+}
+
+.background {
+    background:#10c9c3;
+}
+.navbar ul li a {
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbar ul li:hover a:hover{
+    color: #10c9c3;
+}
+
+.nav-section {
+	background: #dce6e8; 
+}
+
+.nbody {
+	background: #dce6e8;
+}
+
+
+.nav-body {
+	background: url('images/laptop.png');
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.ff {
+	font-family: tahoma;
+}
+
+.button1 {
+	background:#10c9c3;
+	display: inline-block;
+	padding: 6px 17px; 
+	color:white;
+	text-transform: uppercase;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.button1:hover {
+	background:#00afa9;
+}
+
+.skills p {
+	margin:9px 0;
+}
+
+.skills .left {
+	margin-top: 150px;
+}
+
+.projects  {
+	background: #10C9C3;
+}
+.projects h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.projects p {
+	font-size: 16px;
+}
+
+.fa-briefcase {
+	font-size: 40px;
+}
+
+.hi {
+	background: #E7E7E7;	
+}
+
+.hi .box {
+	height: 260px;
+	width: 280px;
+	background: red;
+	position: relative;
+	align-content: center;
+
+
+}
+
+.hi .box img {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+
+}
+
+.hi .box:before {
+	content: '';
+	clear: both;
+	display: block;
+	position: absolute;
+	background: black;
+	opacity: 0.5;
+	height: 0;
+	width: 0;
+	
+}
+
+.hi .box:hover:before {
+	height: 100%;
+	width: 100%;
+	transition: 0.10s;	
+}
+
+.hi h5 {
+	font-size: 16px;
+}
+
+.hi .col-md-3 .box {
+	margin:auto;
+}
+
+.icon {
+	background: #f5f5f5;
+}
+.icon h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.outstanding {
+	background: #10c9c3;
+}
+
+.outstanding .uu {
+	font-size: 18px;
+}
+.outstanding .ui {
+	font-size: 14px;
+}
+
+.im-4 {
+	background: #ffff;
+}
+
+.pro {
+	background: #f5f5f5;
+}
+
+.inp 
+ {
+	width: 50%;
+	margin: auto;
+}
+
+
+.inp input[type="text"]:focus,
+.inp input[type="email"]:focus,
+.inp textarea:focus {
+	background: #7efff5;
+}
+
+.inp .butt {
+	background: #10c9c3;
+	color:#ffff;
+}
+
+.inp .butt {
+	border:1px solid transparent;
+	padding:8px 15px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.inp .butt:hover {
+	background: #18dcff;
+}
+
+.footer-section {
+	margin: auto;
+}
+.footer-section ul {
+	list-style-type: none;
+
+}
